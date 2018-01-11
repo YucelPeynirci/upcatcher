@@ -1,0 +1,1 @@
+UpCatcher is created as a workaround for android app virtual memory requirements.
