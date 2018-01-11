@@ -1,12 +1,9 @@
-package com.hplusbilisim.cibuu.tools;
-
 import android.app.ActivityManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
-import com.hplusbilisim.cibuu.MyApp;
 
 import java.util.HashMap;
 import java.util.Iterator;
