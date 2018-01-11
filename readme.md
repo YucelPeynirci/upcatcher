@@ -7,3 +7,9 @@ Two simple functions;
 upCatcher.put(myKey,myObject);
 
 upCatcher.get(myKey,myObject.class);
+
+
+To use, you should import the Gson library using gradle.
+
+The code benefits from Gson, Shared Preferences and HashMap. 
+It is tested under heavy conditions.
