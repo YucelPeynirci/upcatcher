@@ -45,7 +45,7 @@ public class UpCatcher {
 
     private void checkMemory(){
         ActivityManager.MemoryInfo memoryInfo = getAvailableMemory();
-        if (!memoryInfo.lowMemory) {
+        if (memoryInfo.lowMemory) {
             int i = 0;
             Iterator it = map.entrySet().iterator();
             while (it.hasNext() && i<=5) {
